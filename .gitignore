@@ -1,0 +1,23 @@
+# Secrets
+.env
+
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local / large datasets
+data/raw/*.csv
+data/processed/*.csv
+data/rejected/*.csv
+
+# OS / editor
+.DS_Store
+Thumbs.db

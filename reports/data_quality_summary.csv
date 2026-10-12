@@ -1,0 +1,11 @@
+rule_id,rule_name,status,severity,failed_rows,total_rows,failure_rate
+DQ001,Order Item ID must be unique and non-null,PASS,ERROR,0,180519,0.0
+DQ002,Order and shipping dates must be valid,PASS,ERROR,0,180519,0.0
+DQ003,Calculated shipping days must match source value,PASS,ERROR,0,180519,0.0
+DQ004,Derived SLA breach must match source late-delivery flag,PASS,ERROR,0,180519,0.0
+DQ005,Order quantity must be greater than zero,PASS,ERROR,0,180519,0.0
+DQ006,Product price must be greater than zero,PASS,ERROR,0,180519,0.0
+DQ007,Sales must reconcile to quantity × product price,PASS,ERROR,0,180519,0.0
+DQ008,Effective discount rate must be between 0 and 1,PASS,ERROR,0,180519,0.0
+DQ009,Order total must reconcile within $0.02,PASS,ERROR,0,180519,0.0
+DQ010,Profit value must be present,PASS,ERROR,0,180519,0.0
